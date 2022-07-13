@@ -6,15 +6,14 @@
 }
 
 header {
-  /* background-image: url(./app/images/app-background.jpeg); */
-  background-image: linear-gradient(to right, #FE4880, #FFCE00);
+  background-image: linear-gradient(to right, #1B2430, #51557E, #816797, #D6D5A8);
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
   padding: 15px;
 }
 
 header input {
   display: inline-block;
-  color: #FFF;
+  color: #FCF8E8;
   font-size: 32px;
   font-weight: 600;
   font-style: italic;
@@ -28,7 +27,7 @@ header input {
 header:before {
   content: '/r/';
   display: inline-block;
-  color: #FFF;
+  color: #FCF8E8;
   font-size: 32px;
   font-weight: 600;
   font-style: italic;
@@ -37,7 +36,7 @@ header:before {
 
 .articles article {
   padding: 30px 15px;
-  background-color: #FFF;
+  background-color: #1B2430;
 }
 
 .articles article a {
@@ -45,14 +44,14 @@ header:before {
 }
 
 .articles article h3 {
-  color: #212121;
+  color: #FCF8E8;
 }
 
-.articles article:nth-child(2n) {
-  background-color: #F3F3F3;
-}
+/* .articles article:nth-child(2n) {
+  background-color: #CEE5D0;
+} */
 
 .articles article:hover {
-  background-image: linear-gradient(to left, #FE4880, #FFCE00);
+  background-color: #816797;
 }
 
